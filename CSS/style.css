@@ -1,0 +1,53 @@
+main {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.jumbotron {
+    margin-top: 50px;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.jumboTitle {
+    display:inline;
+}
+
+.jumboMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftJumbo p {
+    padding-top: 20px;
+}
+
+.rightJumbo {
+    padding: 10px;
+}
+
+.rightJumbo img {
+    border-radius: 10%;
+    border: 1px solid black;
+    padding-top: 10px;
+    box-shadow: 10px 10px 5px grey;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+.card-deck {
+    margin: 0 auto;
+}
+
+footer {
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
