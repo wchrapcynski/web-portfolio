@@ -23,6 +23,10 @@ main {
     background-image: -ms-linear-gradient(bottom, rgb(214, 212, 212) 0%, #E9ECEF 100%);
 }
 
+.social-media img {
+    padding: 0 5px;
+}
+
 h1 {
     text-align: center;
     padding-bottom: 10px;
@@ -34,6 +38,10 @@ hr {
     height: 1px;
     background: rgb(73, 132, 180);
     background-image: -webkit-linear-gradient(left, white, rgb(73, 132, 180), white);
+}
+
+.mid-section {
+    padding: 20px 0;
 }
 
 .jumboTitle {
@@ -78,7 +86,7 @@ footer {
 .card-group {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .card {
@@ -86,6 +94,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
 }
 
 .flip-card {
