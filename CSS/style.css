@@ -171,3 +171,14 @@ footer {
     -ms-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
 }
+
+/* smartphones, touchscreens */
+@media (hover: none) and (pointer: coarse) {
+    .flip-card:hover .flip-card-inner {
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+    }
+}
