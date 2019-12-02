@@ -40,28 +40,6 @@ hr {
     background-image: -webkit-linear-gradient(left, white, rgb(73, 132, 180), white);
 }
 
-.mid-section {
-    padding: 20px 0;
-}
-
-.jumboTitle {
-    display:inline;
-}
-
-.jumboMain {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.leftJumbo p {
-    padding-top: 20px;
-}
-
-.rightJumbo {
-    padding: 10px;
-}
-
 .rightJumbo img {
     border-radius: 10%;
     border: 1px solid black;
