@@ -3,7 +3,7 @@ html, body, main {
 }
 
 main {
-    width: 800px;
+    width: 75vw;
     margin: 0 auto;
 }
 
@@ -56,7 +56,7 @@ hr {
 }
 
 footer {
-    width: 800px;
+    width: 75vw;
     margin: 20px auto;
     text-align: center;
 }
@@ -77,16 +77,16 @@ footer {
 
 .flip-card {
     background-color: transparent;
-    width: 250px;
-    height: 250px;
+    width: 20vw;
+    height: 20vw;
     perspective: 1000px;
     margin: 5px;
 }
 
 .flip-card-inner {
     position: relative;
-    width: 250px;
-    height: 250px;
+    width: 20vw;
+    height: 20vw;
     text-align: center;
     transition: transform 0.5s;
     transform-style: preserve-3d;
@@ -97,8 +97,8 @@ footer {
 }
 
 .flip-image {
-    width: 200px;
-    height: 200px;
+    width: 17vw;
+    height: 17vw;
     border: 1px solid black;
 }
 
@@ -158,5 +158,18 @@ footer {
         -moz-transform: none;
         -ms-transform: none;
         -o-transform: none;
+    }
+    .card-group {
+        align-items:center;
+        flex-direction: column;
+    }
+    html {
+        font-size: 5em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card-group {
+        align-items:center;
     }
 }
