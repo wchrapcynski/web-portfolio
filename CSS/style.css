@@ -9,6 +9,7 @@ main {
 
 .jumbotron {
     border: 1px solid rgb(214, 212, 212);
+    width: 75vw;
     margin-top: 50px;
     padding: 50px;
     border-radius: 5%;
@@ -49,6 +50,11 @@ hr {
     -moz-border-radius: 10%;
     -ms-border-radius: 10%;
     -o-border-radius: 10%;
+}
+
+.jumboMain {
+    display: flex;
+    flex-direction: row;
 }
 
 .card-deck {
@@ -171,6 +177,16 @@ footer {
 }
 /* Large devices */
 @media only screen and (max-width: 992px) {
+    .jumboMain {
+        flex-direction: column;
+        text-align: center;
+    }
+    .rightJumbo {
+        margin-top: 40px;
+    }
+    .rightJumbo img {
+        width: 60vw;
+    }
 }
 /* Medium devices */
 @media only screen and (max-width: 768px) {
