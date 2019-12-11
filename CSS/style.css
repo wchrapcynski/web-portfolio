@@ -81,6 +81,7 @@ footer {
     height: 20vw;
     perspective: 1000px;
     margin: 5px;
+    font-size: 1.5vw;
 }
 
 .flip-card-inner {
@@ -150,6 +151,10 @@ footer {
     -o-transform: rotateY(180deg);
 }
 
+.flip-card-back h2 {
+    font-size: 3vw;
+}
+
 /* smartphones, touchscreens */
 @media (hover: none) and (pointer: coarse) {
     .flip-card:hover .flip-card-inner {
@@ -159,6 +164,16 @@ footer {
         -ms-transform: none;
         -o-transform: none;
     }
+}
+
+/* Extra Large devices */
+@media only screen and (max-width: 1200px) {
+}
+/* Large devices */
+@media only screen and (max-width: 992px) {
+}
+/* Medium devices */
+@media only screen and (max-width: 768px) {
     .card-group {
         align-items:center;
         flex-direction: column;
@@ -166,8 +181,26 @@ footer {
     .card {
         margin: 20px 0;
     }
-}
 
-@media only screen and (max-width: 600px) {
- 
+    .flip-card, .flip-card-inner {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    .flip-image {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .flip-card-back h2 {
+        font-size: 5vw;
+    }
+
+    .flip-card-back p {
+        font-size: 2.5vw;
+    }
 }
+/* Small large devices */
+@media only screen and (max-width: 576px) {
+
+}   
