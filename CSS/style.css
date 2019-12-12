@@ -161,6 +161,10 @@ footer {
     font-size: 3vw;
 }
 
+.flip-card-desc {
+    display: none;
+}
+
 /* smartphones, touchscreens */
 @media (hover: none) and (pointer: coarse) {
     .flip-card:hover .flip-card-inner {
@@ -169,6 +173,18 @@ footer {
         -moz-transform: none;
         -ms-transform: none;
         -o-transform: none;
+    }
+
+    .flip-card-desc {
+        display: block;
+    }
+
+    h5 {
+        text-align: center;
+    }
+    .click-desc {
+        font-size: 8px;
+        text-align: center;
     }
 }
 
