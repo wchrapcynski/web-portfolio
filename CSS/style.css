@@ -199,13 +199,13 @@ footer {
     }
 
     .flip-card, .flip-card-inner {
-        width: 40vw;
-        height: 40vw;
+        width: 45vw;
+        height: 45vw;
     }
 
     .flip-image {
-        width: 30vw;
-        height: 30vw;
+        width: 35vw;
+        height: 35vw;
     }
 
     .flip-card-back h2 {
@@ -218,5 +218,24 @@ footer {
 }
 /* Small large devices */
 @media only screen and (max-width: 576px) {
+    .display-4 {
+        font-size: 1.8rem;
+    }
+    
+    .jumbotron {
+        padding: 20px 0;
+        margin-top: 20px;
+    }
 
+    .jumbotron p {
+        font-size: 1rem;
+    }
+
+    .rightJumbo {
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
 }   
