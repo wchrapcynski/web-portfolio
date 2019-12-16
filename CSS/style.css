@@ -177,6 +177,7 @@ footer {
 
     .flip-card-desc {
         display: block;
+        text-align: center;
     }
 
     h5 {
