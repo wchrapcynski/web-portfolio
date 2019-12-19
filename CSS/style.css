@@ -41,6 +41,10 @@ hr {
     background-image: -webkit-linear-gradient(left, white, rgb(73, 132, 180), white);
 }
 
+.section1 {
+    margin-bottom: 80px;
+}
+
 .rightJumbo img {
     border-radius: 10%;
     border: 1px solid black;
@@ -163,6 +167,10 @@ footer {
 
 .flip-card-desc {
     display: none;
+}
+
+.mid-section {
+    margin-top: 80px;
 }
 
 /* smartphones, touchscreens */
