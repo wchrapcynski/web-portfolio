@@ -32,7 +32,6 @@ h1 {
     text-align: center;
     padding-bottom: 10px;
     font-family: 'Orbitron', sans-serif;
-    margin-top: 40px;
 }
 
 hr {
@@ -188,11 +187,12 @@ footer {
         font-size: 8px;
         text-align: center;
     }
+    .card-group {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
-/* Extra Large devices */
-@media only screen and (max-width: 1200px) {
-}
 /* Large devices */
 @media only screen and (max-width: 992px) {
     .jumboMain {
@@ -233,6 +233,10 @@ footer {
     .flip-card-back p {
         font-size: 2.5vw;
     }
+
+    h1 {
+        font-size: 3rem;
+    }
 }
 /* Small large devices */
 @media only screen and (max-width: 576px) {
@@ -255,5 +259,9 @@ footer {
 
     p {
         font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
     }
 }   
