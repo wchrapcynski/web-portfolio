@@ -1,285 +1,337 @@
-html, body, main {
-    background-color: rgb(250, 250, 250);
+html,
+body,
+main {
+  background-color: rgb(250, 250, 250);
 }
 
 main {
-    width: 75vw;
-    margin: 0 auto;
+  width: 75vw;
+  margin: 0 auto;
 }
 
 .jumbotron {
-    border: 1px solid rgb(214, 212, 212);
-    width: 75vw;
-    margin-top: 50px;
-    padding: 50px;
-    border-radius: 5%;
-    -webkit-border-radius: 5%;
-    -moz-border-radius: 5%;
-    -ms-border-radius: 5%;
-    -o-border-radius: 5%;
-    background-image: linear-gradient(bottom, rgb(214, 212, 212) 0%, #E9ECEF 100%);
-    background-image: -o-linear-gradient(bottom, rgb(214, 212, 212) 0%, #E9ECEF 100%);
-    background-image: -moz-linear-gradient(bottom, rgb(214, 212, 212) 0%, #E9ECEF 100%);
-    background-image: -webkit-linear-gradient(bottom, rgb(214, 212, 212) 0%, #E9ECEF 100%);
-    background-image: -ms-linear-gradient(bottom, rgb(214, 212, 212) 0%, #E9ECEF 100%);
+  border: 1px solid rgb(214, 212, 212);
+  width: 75vw;
+  margin-top: 50px;
+  padding: 50px;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+  background-image: linear-gradient(
+    bottom,
+    rgb(214, 212, 212) 0%,
+    #e9ecef 100%
+  );
+  background-image: -o-linear-gradient(
+    bottom,
+    rgb(214, 212, 212) 0%,
+    #e9ecef 100%
+  );
+  background-image: -moz-linear-gradient(
+    bottom,
+    rgb(214, 212, 212) 0%,
+    #e9ecef 100%
+  );
+  background-image: -webkit-linear-gradient(
+    bottom,
+    rgb(214, 212, 212) 0%,
+    #e9ecef 100%
+  );
+  background-image: -ms-linear-gradient(
+    bottom,
+    rgb(214, 212, 212) 0%,
+    #e9ecef 100%
+  );
 }
 
 .social-media img {
-    padding: 0 5px;
+  padding: 0 5px;
 }
 
 h1 {
-    text-align: center;
-    padding-bottom: 10px;
-    font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: "Orbitron", sans-serif;
 }
 
 .card-title a {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .card-title img {
-    padding-right: 5px;
+  padding-right: 5px;
 }
 
 hr {
-    border: 0;
-    height: 1px;
-    background: rgb(73, 132, 180);
-    background-image: -webkit-linear-gradient(left, white, rgb(73, 132, 180), white);
+  border: 0;
+  height: 1px;
+  background: rgb(73, 132, 180);
+  background-image: -webkit-linear-gradient(
+    left,
+    white,
+    rgb(73, 132, 180),
+    white
+  );
 }
 
 .section1 {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
+}
+
+.card-row {
+  display: contents;
 }
 
 .rightJumbo img {
-    border-radius: 10%;
-    border: 1px solid black;
-    padding-top: 10px;
-    box-shadow: 10px 10px 5px grey;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
+  border-radius: 10%;
+  border: 1px solid black;
+  padding-top: 10px;
+  box-shadow: 10px 10px 5px grey;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
 }
 
 .jumboMain {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .card-deck {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 footer {
-    width: 75vw;
-    margin: 20px auto;
-    text-align: center;
+  width: 75vw;
+  margin: 20px auto;
+  text-align: center;
 }
 
 .card-group {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .card {
-    border: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
 }
 
 .flip-card {
-    background-color: transparent;
-    width: 20vw;
-    height: 20vw;
-    perspective: 1000px;
-    margin: 5px;
-    font-size: 1.5vw;
+  background-color: transparent;
+  width: 20vw;
+  height: 20vw;
+  perspective: 1000px;
+  margin: 10px 5px;
+  font-size: 1.5vw;
 }
 
 .flip-card-inner {
-    position: relative;
-    width: 20vw;
-    height: 20vw;
-    text-align: center;
-    transition: transform 0.5s;
-    transform-style: preserve-3d;
-    -webkit-transition: transform 0.5s;
-    -moz-transition: transform 0.5s;
-    -ms-transition: transform 0.5s;
-    -o-transition: transform 0.5s;
+  position: relative;
+  width: 20vw;
+  height: 20vw;
+  text-align: center;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  -webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  -ms-transition: transform 0.5s;
+  -o-transition: transform 0.5s;
 }
 
 .flip-image {
-    width: 17vw;
-    height: 17vw;
-    border: 1px solid black;
+  width: 17vw;
+  height: 17vw;
+  border: 1px solid black;
 }
 
 .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -ms-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
 }
 
 .flip-card-front,
 .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
-    border: 1px solid rgb(73, 132, 180);
-    background-image: linear-gradient(bottom, rgb(73, 132, 180) 0%, rgb(97, 155, 203) 100%);
-    background-image: -o-linear-gradient(bottom, rgb(73, 132, 180) 0%, rgb(97, 155, 203) 100%);
-    background-image: -moz-linear-gradient(bottom, rgb(73, 132, 180) 0%, rgb(97, 155, 203) 100%);
-    background-image: -webkit-linear-gradient(bottom, rgb(73, 132, 180) 0%, rgb(97, 155, 203) 100%);
-    background-image: -ms-linear-gradient(bottom, rgb(73, 132, 180) 0%, rgb(97, 155, 203) 100%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+  border: 1px solid rgb(73, 132, 180);
+  background-image: linear-gradient(
+    bottom,
+    rgb(73, 132, 180) 0%,
+    rgb(97, 155, 203) 100%
+  );
+  background-image: -o-linear-gradient(
+    bottom,
+    rgb(73, 132, 180) 0%,
+    rgb(97, 155, 203) 100%
+  );
+  background-image: -moz-linear-gradient(
+    bottom,
+    rgb(73, 132, 180) 0%,
+    rgb(97, 155, 203) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    bottom,
+    rgb(73, 132, 180) 0%,
+    rgb(97, 155, 203) 100%
+  );
+  background-image: -ms-linear-gradient(
+    bottom,
+    rgb(73, 132, 180) 0%,
+    rgb(97, 155, 203) 100%
+  );
 }
 
 .flip-card-front {
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flip-card-back {
-    color: white;
-    transform: rotateY(180deg);
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -ms-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
+  color: white;
+  transform: rotateY(180deg);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
 }
 
 .flip-card-back h2 {
-    font-size: 3vw;
+  font-size: 3vw;
 }
 
 .flip-card-desc {
-    display: none;
+  display: none;
 }
 
 .section3 {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 /* smartphones, touchscreens */
 @media (hover: none) and (pointer: coarse) {
-    .flip-card:hover .flip-card-inner {
-        transform: none;
-        -webkit-transform: none;
-        -moz-transform: none;
-        -ms-transform: none;
-        -o-transform: none;
-    }
+  .flip-card:hover .flip-card-inner {
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+  }
 
-    .flip-card-desc {
-        display: block;
-        text-align: center;
-    }
+  .flip-card-desc {
+    display: block;
+    text-align: center;
+  }
 
-    h5 {
-        text-align: center;
-    }
-    .click-desc {
-        font-size: 8px;
-        text-align: center;
-    }
-    .card-group {
-        flex-direction: column;
-        align-items: center;
-    }
+  h5 {
+    text-align: center;
+  }
+  .click-desc {
+    font-size: 8px;
+    text-align: center;
+  }
+  .card-group {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* Large devices */
 @media only screen and (max-width: 992px) {
-    .jumboMain {
-        flex-direction: column;
-        text-align: center;
-    }
-    .rightJumbo {
-        margin-top: 40px;
-    }
-    .rightJumbo img {
-        width: 60vw;
-    }
+  .jumboMain {
+    flex-direction: column;
+    text-align: center;
+  }
+  .rightJumbo {
+    margin-top: 40px;
+  }
+  .rightJumbo img {
+    width: 60vw;
+  }
 }
 /* Medium devices */
 @media only screen and (max-width: 768px) {
-    .card-group {
-        align-items:center;
-        flex-direction: column;
-    }
-    .card {
-        margin: 20px 0;
-    }
+  .card-group {
+    align-items: center;
+    flex-direction: column;
+  }
+  .card {
+    margin: 20px 0;
+  }
 
-    .flip-card, .flip-card-inner {
-        width: 45vw;
-        height: 45vw;
-    }
+  .flip-card,
+  .flip-card-inner {
+    width: 45vw;
+    height: 45vw;
+  }
 
-    .flip-image {
-        width: 35vw;
-        height: 35vw;
-    }
+  .flip-image {
+    width: 35vw;
+    height: 35vw;
+  }
 
-    .flip-card-back h2 {
-        font-size: 5vw;
-    }
+  .flip-card-back h2 {
+    font-size: 5vw;
+  }
 
-    .flip-card-back p {
-        font-size: 2.5vw;
-    }
+  .flip-card-back p {
+    font-size: 2.5vw;
+  }
 
-    h1 {
-        font-size: 3rem;
-    }
+  h1 {
+    font-size: 3rem;
+  }
 }
 /* Small large devices */
 @media only screen and (max-width: 576px) {
-    .display-4 {
-        font-size: 1.8rem;
-    }
-    
-    .jumbotron {
-        padding: 20px 0;
-        margin-top: 20px;
-    }
+  .display-4 {
+    font-size: 1.8rem;
+  }
 
-    .jumbotron p {
-        font-size: 1rem;
-    }
+  .jumbotron {
+    padding: 20px 0;
+    margin-top: 20px;
+  }
 
-    .rightJumbo {
-        margin-top: 20px;
-    }
+  .jumbotron p {
+    font-size: 1rem;
+  }
 
-    p {
-        font-size: 1rem;
-    }
+  .rightJumbo {
+    margin-top: 20px;
+  }
 
-    h1 {
-        font-size: 2rem;
-    }
-}   
+  p {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
