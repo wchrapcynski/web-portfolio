@@ -67,6 +67,16 @@ hr {
   display: contents;
 }
 
+.lead {
+  padding-right: 20px;
+}
+
+.rightJumbo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .rightJumbo img {
   border-radius: 8px;
   border: 1px solid black;
@@ -201,6 +211,10 @@ footer {
 
 /* smartphones, touchscreens */
 @media (hover: none) and (pointer: coarse) {
+  .lead {
+    padding: 0;
+  }
+
   .flip-card:hover .flip-card-inner {
     transform: none;
     -webkit-transform: none;
